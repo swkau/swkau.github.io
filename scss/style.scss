@@ -1,0 +1,195 @@
+@import url(https://fonts.googleapis.com/css?family=Exo);
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Exo', sans-serif;
+	color: white;
+/*	background: url(../siwei.jpg) center;
+	background-attachment: fixed;
+  	opacity: 0.8; */
+}
+
+p {
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#top {
+	margin: 0 auto;
+	width: 75%;
+	background-color: #333333;
+	display: block;
+	border-bottom: 3px solid #b22222;
+}
+
+#me {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#top h1 {
+	margin: 0;
+	padding-left: 10px;
+	color: #eeeeee;
+	display: inline-block;
+}
+
+
+#middle {
+	margin: 0 auto;
+	width: 75%;
+}
+
+#middle h1 {
+	padding: 0 20px 0 20px;
+	color: #00b000;
+}
+
+#mid-left {
+	float: left;
+	margin: 2px 2px 2px 0;
+	width: 24%;
+	min-width: 120px;
+	display: block;
+	background: black;
+  	opacity: 0.8;
+}
+
+#mid-left ul {
+	margin: 0 0 0 -40px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 100%;
+	background: white;
+	list-style-position: inside;
+}
+
+#mid-left ul li {
+	margin-bottom: 1px;
+	background: black;
+	list-style-type:none;
+}
+
+#mid-left ul li:nth-child(1) {
+	font-size:20px;
+	font-weight: bold;
+}
+
+#menu li:nth-child(1) {
+	color: #b00000;
+}
+
+#edu li:nth-child(1) {
+	color: #00b000;
+}
+
+#cert li:nth-child(1) {
+	color: #0000b0;
+}
+
+#hobbies li:nth-child(1) {
+	color: #b0b000;
+}
+
+#mid-right {
+	float: right;
+	margin: 2px 0 2px 2px;
+	width: 75.2%;
+	display:block;
+	background: black;
+  	opacity: 0.8;
+}
+
+@media only screen and (max-width: 700px) {
+#mid-right {
+	float: right;
+	margin: 2px 0 2px 2px;
+	width: 74%;
+	display:block;
+	background: black;
+  	opacity: 0.8;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+#mid-right {
+	float: right;
+	margin: 2px 0 2px 2px;
+	width: 72%;
+	display:block;
+	background: black;
+  	opacity: 0.8;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+#mid-right {
+	float: right;
+	margin: 2px 0 2px 2px;
+	width: 69%;
+	display:block;
+	background: black;
+  	opacity: 0.8;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+#mid-right {
+	float: right;
+	margin: 2px 0 2px 2px;
+	width: 66%;
+	display:block;
+	background: black;
+  	opacity: 0.8;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+#mid-left {
+	float: left;
+	margin: 2px 2px 2px 0;
+	width: 100%;
+	min-width: 120px;
+	display: block;
+	background: black;
+  	opacity: 0.8;
+}
+#mid-right {
+	float: right;
+	margin: 2px 0 2px 2px;
+	width: 100%;
+	display:block;
+	background: black;
+  	opacity: 0.8;
+	}
+}
+
+#showcase {
+	text-align: center;
+	margin: 0 auto;
+	width: 75%;
+	background: black;
+	opacity: 0.8;
+	margin-bottom: 2px;
+}
+
+#footer {
+	text-align: center;
+	margin: 0 auto;
+	width: 75%;
+	background: black;
+	opacity: 0.8;
+}
+
+#showcase h1 {
+	padding: 20px 0 0 20px;
+	color: #00b0b0;
+}
+
+#showcase img {
+	margin: 10px 50px 10px 50px;
+	width: 150px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
